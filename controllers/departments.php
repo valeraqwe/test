@@ -1,6 +1,6 @@
 <?php
 
-require_once '../models/Department.php';
+require_once __DIR__ . '/../models/Department.php';
 
 $departmentModel = new Department();
 

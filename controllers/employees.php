@@ -1,7 +1,7 @@
 <?php
 
-require_once '../models/Employee.php';
-require_once '../models/Department.php';
+require_once __DIR__ . '/../models/Employee.php';
+require_once __DIR__ . '/../models/Department.php';
 
 $employeeModel = new Employee();
 $departmentModel = new Department();
