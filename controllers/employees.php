@@ -21,4 +21,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $employees = $employeeModel->getAll();
 $departments = $departmentModel->getAll();
 
-require_once '../views/employees.php';
+require_once __DIR__ . '/../views/employees.php';

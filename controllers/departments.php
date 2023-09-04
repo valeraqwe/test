@@ -16,4 +16,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $departments = $departmentModel->getAll();
 
-require_once '../views/departments.php';
+require_once __DIR__ . '/../views/departments.php';
